@@ -1,0 +1,36 @@
+.home-container{
+    display: grid;
+    grid-template-rows: "header" "section" "footer";
+    height: 100vh;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.home-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 10vh;
+}
+
+
+.page-section{
+    height: 100vh;
+}
+
+.quiz-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.padding-top-10rem{
+     padding-top: 10rem;
+}
+
+.padding-top-5rem{
+    padding-top: 5rem;
+}
+
