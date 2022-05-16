@@ -16,7 +16,6 @@ const Leaderboard=()=>{
        let sort =  leaderlist.sort((a,b)=>{
            return b.score - a.score
        })
-       console.log(sort)
        setdata(sort)
     },[])
     
