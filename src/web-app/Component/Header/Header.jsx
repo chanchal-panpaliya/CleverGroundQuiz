@@ -66,7 +66,7 @@ const Header = (props) =>{
                             <button className="button button-secondary button-outline-tertiary button-onhover-fillbackground-danger">
                                 <span className='flex-row flex-justify-content-center flex-align-item-center col-gap-1rem'>
                                    <i class="fa-solid fa-chess-king"></i>
-                                   <label> Leader Bord </label>
+                                   <label> Leader Board </label>
                                 </span>   
                             </button>
                         </Link>
