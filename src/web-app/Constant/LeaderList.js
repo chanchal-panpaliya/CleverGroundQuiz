@@ -1,24 +1,24 @@
 export const Leaderboardlist =[
     {
         userName : "ram",
-        _id:"sdfghjk1",
+        _id:"cM2314k1",
         score:2,
-        type: "abc",
-        topic:"pqr",
+        type: "HTML",
+        topic:"Web Browsers",
     },
     {
         userName : "seeta",
-        _id:"sdfghjk1",
+        _id:"vD42k11",
         score:3,
-        type: "abc",
-        topic:"pqr",
+        type: "HTML",
+        topic:"HTML5 – 1",
     },
     {
         userName : "hanuman",
-        _id:"sdfghjk1",
+        _id:"ZdC123k1",
         score:4,
-        type: "abc",
-        topic:"pqr",
+        type: "CSS",
+        topic:"Styling Tables",
     }
 ]
 
