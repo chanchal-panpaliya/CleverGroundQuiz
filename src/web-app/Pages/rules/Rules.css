@@ -1,0 +1,10 @@
+.card-body-padding{
+    padding: 0;
+    padding-bottom: 2rem;
+}
+
+.card-night-mood{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}

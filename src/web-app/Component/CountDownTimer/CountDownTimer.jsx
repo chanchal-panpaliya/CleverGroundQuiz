@@ -7,7 +7,7 @@ const CountDownTimer=({timerdeadeline})=>{
 
   const min=
   localStorage.getItem("minutes") == null || localStorage.getItem("minutes") == "undefined"
-    ? 1
+    ? 5
     : JSON.parse(localStorage.getItem("minutes"))
 
     const sec=
