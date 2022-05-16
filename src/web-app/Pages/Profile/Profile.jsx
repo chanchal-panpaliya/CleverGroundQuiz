@@ -14,7 +14,6 @@ const Profile = () =>{
    return(
         <div>
             <Header/>
-                {/* <section className="home-section" style={{backgroundColor:darkTheme?"black":"white",color:darkTheme?"white":"black"}}> */}
                 <div className='page-container typology-padding-top' style={{backgroundColor:darkTheme?"black":"white",color:darkTheme?"white":"black"}}>
                     <div className='page-data-display typology-padding-top'>
                         <header className='like-page-header' style={{backgroundColor:darkTheme?"grey":"",color:darkTheme?"":"black"}}>
