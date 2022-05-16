@@ -39,7 +39,7 @@ return(
             </header>
             <section className="home-section typography-align-center" style={{backgroundColor:darkTheme?"black":"white",color:darkTheme?"white":"black"}}>
                <div className="letterspace-Small typography-h4 typography-padding-top-right-bottom-left"> We know Victoria's secret </div>
-               <div className="typography-h1 typography-fontweight-black heading-title"> Cleaver Ground Quiz </div>
+               <div className="typography-h1 typography-fontweight-black heading-title"> CleverGround Quiz </div>
                <p className="typography-p-small typography-padding-top-right">Unlocking knowledge at the speed of thought.</p>
                 <small className="typology-padding-top"> Choose one option from the below list and go forward.</small>
                 <ul className="quiz-option">
