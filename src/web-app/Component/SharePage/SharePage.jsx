@@ -7,17 +7,10 @@ const SharePage = ({data}) =>{
                 <label> Share Quiz Page </label>
             </section>
             <section className="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center">
-               
                 <i class="fa-solid fa-envelope share-icon"></i>
-            
-                    <i class="fa-brands fa-twitter-square share-icon"></i>
-                
-               
-                    <i class="fa-brands fa-facebook-square share-icon"></i>
-                
-              
-                    <i class="fa-brands fa-linkedin share-icon"></i>
-                
+                <i class="fa-brands fa-twitter-square share-icon"></i>
+                <i class="fa-brands fa-facebook-square share-icon"></i>
+                <i class="fa-brands fa-linkedin share-icon"></i>
           </section>
       </div>
       
