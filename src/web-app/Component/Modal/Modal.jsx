@@ -4,6 +4,7 @@ import { useState ,useContext ,useEffect} from "react";
 import { useTheme } from "web-app/Context/theme-context";
 import { useAuth } from "web-app/Context/login/AuthContext";
 import { useNavigate } from "react-router-dom";
+import SharePage from "../SharePage/SharePage";
 import QuizContext from "web-app/Context/QuizContext";
 
 //modal edit
@@ -53,6 +54,21 @@ export const QUIT_Modal =(props)=>{
             </div>
             
         </div>
+    )
+}
+
+export const ShareModal =({data,modalClose})=>{
+    return(
+        <div className='modal'>
+        <div className="modal-container">  
+            <div className='modal-right-side'>
+                <div className='modal-right-flex-row'>
+                   <SharePage data={data}/>
+                </div> 
+            </div>
+            <i className="fa-solid fa-xmark modal-close-modal" onClick={modalClose}></i>
+        </div>
+    </div> 
     )
 }
 

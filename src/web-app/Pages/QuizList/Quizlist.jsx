@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import Filter from "../../Component/Filter/Filter";
 import {get_Category_Type,get_SORT_DATA,get_search} from "../../Component/Filter/FilterUtility";
 
+
 const Quizlist =()=>{
    let {MC_type,quizlist,GetSingleQuizId,filter,filter_dispatch,getCategoryType} = useContext(QuizContext)
    const { darkTheme } = useTheme();
@@ -69,7 +70,7 @@ const Quizlist =()=>{
                           { sort_Data.map((item,index)=>{
                              return item.CategoryName === category ?
                                (
-                                <Link to={`/quizlist/${item._id}/rule`} onClick={()=>{ GetSingleQuizId(item._id); side_toggle && sidebarClose() }}> 
+                                 <Link to={`/quizlist/${item._id}/rule`} onClick={()=>{ GetSingleQuizId(item._id); side_toggle && sidebarClose() }}> 
                                     <li className="notification-card-v1 border-weight-left-secondarycolor" style={{color:darkTheme?"black":"grey"}}> 
                                           <div className="Letter-avatar border-radius-round icon-secondary-background-color">
                                              <span className="Letter-avatar-label"> 
@@ -79,9 +80,9 @@ const Quizlist =()=>{
                                           <div className="flex-2 flex-align-item-center typography-padding-top-right-bottom-left typography-p-small">
                                                 <div className="typography-h4 typography-fontweight-bold"> {item.CategoryType} </div>
                                                 <div className="typography-grey-text-extrasmall"> {item.Desc} </div>
-                                          </div>                                 
+                                          </div>                                  
                                     </li>
-                               </Link> 
+                                    </Link> 
                                ) :  null
                            }) }
                            </ul> :
