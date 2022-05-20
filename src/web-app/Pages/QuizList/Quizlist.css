@@ -176,6 +176,11 @@
       .note-logo{
           display: flex;
       }
+
+      .sidebar__menu{
+        overflow-y: scroll;
+        height: 88vh;
+      }
 }
 
   
