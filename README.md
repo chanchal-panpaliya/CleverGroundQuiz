@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/28673856/169528441-1c0cedd2-70e2-4ca5-
 <b> About </b> : CleverGround Quiz is a basic web development objective-type question for students to test their understanding.
 <br/>
 <hr/>
-<b> Tech Stack </b> : React and Mockbee 
+<b> Tech Stack </b> :React, Mockbee, and for the CSS I used my component library, https://solutionground.netlify.app/
 <br/>
 <h2> Features It has </h2>
 <h3>Category</h3>
