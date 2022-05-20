@@ -22,8 +22,10 @@ const Leaderboard=()=>{
    return(
         <div>
         <Header/>
-        <section className="page-section home-section" style={{backgroundColor:darkTheme?"black":"white",color:darkTheme?"white":"black"}}>
-            <h3> Leaderboard Top 3 </h3>
+        <section className="home-section leader-board-height" style={{backgroundColor:darkTheme?"black":"white",color:darkTheme?"white":"black"}}>
+            <div className='padding-top-5rem'>
+                <h3> Leaderboard Top 3 </h3>
+             </div>
               <div className="leaderboard-grid">           
              {
                  leaderlist.map((item,index)=>{

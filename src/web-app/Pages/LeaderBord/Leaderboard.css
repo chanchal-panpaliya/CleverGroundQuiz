@@ -8,6 +8,12 @@
     height: auto;
 }
 
+.leader-board-height{
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .card-list{
     box-shadow: 5px 5px 1.25rem 0 rgb(0 0 0 / 20%);
     padding: 10px;
@@ -16,12 +22,20 @@
     flex: 1;
 }
                            
-                                                                                                                                                       
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .leaderboard-grid{
         grid-template-columns: 1fr;
     }
+
+    .leader-board-height{
+        padding-top: 5rem;
+        overflow: hidden;
+        height: -webkit-fill-available;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
