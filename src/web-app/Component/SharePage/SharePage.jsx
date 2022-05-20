@@ -1,17 +1,17 @@
 import "./SharePage.css"
 const SharePage = ({data}) =>{
-
+  console.log(data)
   return(
         <div className="flex-col row-gap-2rem flex-justify-content-center flex-align-item-center">
             <section>
                 <label> Share Quiz Page </label>
             </section>
             <section className="flex-row col-gap-1rem flex-justify-content-center flex-align-item-center">
-                <a class="share-btn share-btn-email" href={`mailto:?subject=${data.CategoryType}&body=${window.location.href}`} title="Share via Email">
+                <a class="share-btn share-btn-email" href={`mailto:?subject=cleverGround quiz page&body=${window.location.href}`} title="Share via Email">
                 <i class="fa-solid fa-envelope share-icon"></i>
                 </a>
                 <a class="share-btn share-btn-branded share-btn-twitter"
-                href={`https://twitter.com/share?url=${window.location.href}&text=${data.CategoryType}&via=${'cleverGroundQuiz.com'}`}
+                href={`https://twitter.com/share?url=${window.location.href}&text= cleverGround quiz page&via=${'cleverGroundQuiz.com'}`}
                 title="Share on Twitter">
                     <i class="fa-brands fa-twitter-square share-icon"></i>
                 </a>
