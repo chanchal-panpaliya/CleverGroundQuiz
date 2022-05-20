@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<hr/>
+<h1> CleverGround Quiz App</h1>
+<hr/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+https://user-images.githubusercontent.com/28673856/169528441-1c0cedd2-70e2-4ca5-8981-a2d0cb7c632f.mp4
 
-In the project directory, you can run:
 
-### `yarn start`
+<hr/>
+<b> About </b> : CleverGround Quiz is a basic web development objective-type question for students to test their understanding.
+<br/>
+<hr/>
+<b> Tech Stack </b> :React, Mockbee, and for the CSS I used my component library, https://solutionground.netlify.app/
+<br/>
+<h2> Features It has </h2>
+<h3>Category</h3>
+<ul>
+  <li> HTML </li>
+  <li> CSS </li>
+</ul>
+<h3> For Developers </h3>
+<ul>
+  <li> localStorage to store selected theme and quiz data </li>.
+  <li> api for - login and registration </li>
+</ul>
+<h3> theme </h4> - toggle between dark/light theme
+<h3> responsive </h3> - the app is fully responsive
+<hr/>
+<h3> Features - P0</h3>
+<ul>
+  <li>Home Page</li>
+  <li>Quizzes by Category</li>
+  <li>Rules Page for while attempting Quiz</li>
+  <li>MCQ based Quiz Question Page</li>
+  <li>Result Page with Answers & Score</li>
+</ul>
+<h3> Features - P1</h3>
+<ul>
+  <li>Quiz Board</li>
+  <li>Timer for Quiz Questions</li>
+  <li>Search Quiz</li>
+  <li>Quit Quiz</li>
+  <li>Forget Password Page</li>
+  <li>Loading & Alerts</li>
+  <li>User Profile Page</li>
+  <li>Authentication - login , Sign-up , logout </li>
+</ul>
+<h3> Features - P2</h3> 
+<ul>
+  <li>Share Quiz</li>
+  <li>Remember me while login</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3> Others </h3> - 3 core features  - Ex: Sorting, Filtering
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
