@@ -1,7 +1,7 @@
 const menuState = { MC_type: "" };
 
 type MenuTYPE =
-  | { type: "MENU_CATEORY_TYPE"; payload: any };
+  | { type: "MENU_CATEORY_TYPE"; payload: string };
 
   
 const MenuCategoryType=(state: typeof menuState, action: MenuTYPE)=>{
@@ -18,7 +18,7 @@ const MenuCategoryType=(state: typeof menuState, action: MenuTYPE)=>{
 const singlequizState = { singleQuizId: "" }; 
 
 type singleQuiz_IdTYPE =
-  | { type: "SELECTED_QUIZ_DATA_ID"; payload: any };
+  | { type: "SELECTED_QUIZ_DATA_ID"; payload: string };
 
 const SingleQuizId=(state: typeof singlequizState, action: singleQuiz_IdTYPE)=>{
     switch(action.type){  

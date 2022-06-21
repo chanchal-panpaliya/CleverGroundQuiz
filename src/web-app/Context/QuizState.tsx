@@ -63,15 +63,15 @@ const QuizState =({ children }: QuizContextProviderProps)=>{
         },[quiz.quizlist,result.quizresult]);
 
     //toast
-   const deleteToast = (id:any) =>{
+   const deleteToast = (id:number) =>{
         toastdispatch({type:'REMOVE_TOAST',payload:id})  
     }
 
-    const getCategoryType=(name:any)=>{
+    const getCategoryType=(name:string)=>{
         categoryTypedispatch({type:"MENU_CATEORY_TYPE",payload:name}) 
     }
 
-    const GetSingleQuizId=(id:any)=>{
+    const GetSingleQuizId=(id:string)=>{
         quizid_dispatch({type:"SELECTED_QUIZ_DATA_ID",payload:id})
     }
 

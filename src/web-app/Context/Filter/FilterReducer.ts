@@ -1,7 +1,7 @@
 const FilterState = { categoryType: "",sort:"",search:"" };
 
 type FilterTYPE =
-  | { type: "CATEGORY_TYPE"; payload: any }
+  | { type: "CATEGORY_TYPE"; payload: string }
   | { type: "SORT"; payload: any }
   | { type: "SEARCH_BY_TITLE"; payload: any } ;
   
